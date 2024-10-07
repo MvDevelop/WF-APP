@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor00: #CCDBDC;
+    --cor01: #8EE3F5;
+    --cor02: #4d8be9;
+    --cor03: #0D1821;
+    --cor04: #373766;
+}
+
+html {
+    font-weight: 500;
+    font-size: 15px;
+    /* font-family: "Sofadi One", system-ui; */
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    height: 100vh;
+} 
+
+.container {
+    display: flex;
+    box-shadow: 2px 2px 4px #00000088;
+    text-shadow: rgba(0, 0, 0, 0.452) 1px 1px 2px;
+    color: #f5f5f5;
+    background: url(/assets/img/wall.gif);
+    background-size: 29rem;
+}
+
+form {
+    background-color: rgba(168, 168, 168, 0.938);
+    text-align: center;
+    margin: 5rem auto;
+    padding: 1.5rem;
+    color: #f5f5f5;
+}
+
+input::placeholder {
+    color: #f5f5f5;
+}
+
+.sBar {
+    display: flex;
+}
+
+#search {
+    align-items: center;
+    gap: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#search input {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+#search input:focus-visible {
+    outline: none;
+}
+
+#search i {
+    font-size: 1.4rem;
+    padding: 0.2rem;
+}
+
+#search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.city-name {
+    color: #f5f5f5;
+}
+
+.ln {
+    color: #f5f5f5;
+}
+
+#weather {
+    padding: 1rem;
+}
+
+#weather #title {
+    text-align: center;
+}
+
+#temp {
+    display: flex;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+#other-infos {
+    display: flex;
+}
+
+.info {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    border-radius: 5px;
+}
+
+.info:hover {
+    box-shadow: 1px 1px 2px #f5f5f57c;
+    transition: 1s;
+}
+
+.info .tmax {
+    color: rgba(175, 64, 64, 0.5);
+}
+
+.info .tmin {
+    color: #75a3ac85;
+}
+
+.info .umi {
+    color: rgba(73, 182, 176, 0.514);
+}
+
+.info .win {
+    color: #f5f5f58a;
+}
+
+.info i {
+    text-shadow: rgba(0, 0, 0, 0.582) 1px 1px 2px;
+}
+
+#alert {
+    color: #f5f5f5;
+    text-shadow: rgba(0, 0, 0, 0.493) 1px 1px 2px;
+}
+
+.alert img {
+    width: 25%;
+}
+
+/* -- -- -- -- */
+
+footer {
+    background-color: #020202;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    color: #f5f5f5;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+footer a:hover {
+    color: #8EE3F5;
+    color: #007acc;
+    transition: 1s;
+}
+
+.about {
+    /* background-color: #4d8be988; */
+    width: fit-content;
+    /* display: flex; */
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.about div {
+    margin: auto;
+}
+
+.about img {
+    width: 25%;
+}
+
+.about nav {
+    display: flex;
+    margin: auto;
+}
+
+.about p {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.about i {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+span { 
+    color: #4d8be9;
+    transition: 1s;
+}
+
+span:hover {
+    color: #8EE3F5;
+    transition: 1s;
+}
+
+.js {
+    color: #F0DB4F;
+}
+
+.ts {
+    color: #007acc;
+}
+
+.njs {
+    color: #3C873A;
+}
+
+.sql {
+    color: #00758f;
+}
+
+.rc {
+    color: #61DBFB;
+}
+
+.bt {
+    color: #673AB7;
+}
+
+.aws {
+    color: #FF9900;
+}
+
+.js:hover, .njs:hover, .ts:hover,
+.sql:hover, .rc:hover, .bt:hover, .aws:hover {
+    color: #8EE3F5;
+    transition: 1s;
+}
+
+.ft2 {
+    display: flex;
+}
+
+.ft2 img {
+    width: 35%;
+    margin-left: 2rem;
+}
+
+.ft2 i {
+    font-size: 2.5rem;
+}

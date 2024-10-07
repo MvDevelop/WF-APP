@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/img/1982458.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WF APP</title>
+</head>
+<body>
+    <header>WF APP</header>
+    <main>
+        <div class="container">
+
+            <form id="search">
+                <div class="sBar">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="search" class="city-name" id="cn" placeholder="Selection">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass ln"></i>
+                    </button>
+                </div>
+                <div class="show" id="weather">
+                    <h2 id="title">City, Country</h2>
+    
+                    <div id="infos">
+                        <div id="temp">
+                            <img id="temp_img" src="http://openweathermap.org/img/wn/04d@2x.png">
+                            <div>
+                                <p id="temp_value">
+                                    ... <sup>...</sup>
+                                </p>
+                                <p id="temp_description">
+                                    ...
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div id="other-infos">
+                            <div class="info">
+                                <i id="temp-max-icon" class="fa-solid fa-temperature-high tmax"></i>
+    
+                                <div>
+                                    <h3>Max temp.</h3>
+                                    <p id="temp_max">
+                                        ... <sup>...</sup>
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="info"> 
+                                <i id="temp-min-icon" class="fa-solid fa-temperature-low tmin"></i>
+    
+                                <div>
+                                    <h3>Min temp.</h3>
+                                    <p id="temp_min">
+                                        ... <sup>...</sup>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="other-infos">
+                            <div class="info"> 
+                                <i id="humidity_icon" class="fa-solid fa-droplet umi"></i>
+    
+                                <div>
+                                    <h3>Humidity</h3>
+                                    <p id="humidity">
+                                        ...%
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="info"> 
+                                <i id="wind_icon" class="fa-solid fa-wind win"></i>
+    
+                                <div>
+                                    <h3>Wind</h3>
+                                    <p id="wind">
+                                        ... km/h
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class='alert' id="alert"></div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="about">
+            <div class="ft0">
+                <span><i class='bx bxl-javascript js'></i></span>
+                <span><i class='bx bxl-typescript ts' ></i></span>
+                <span><i class='bx bxl-nodejs njs' ></i></span>
+                <span><i class='bx bxs-data sql'></i></span>
+                <span><i class='bx bxl-react rc' ></i></span>
+                <span><i class='bx bxl-bootstrap bt' ></i></span>
+                <span><i class='bx bxl-aws aws'></i></span>
+            </div>
+
+            <div class="ft1">
+                <p>Developing <span>solutions</span> for each type of problem for <span>all people</span>.</p>
+                <p>Sometimes it is the people no one imagines anything of who do the things that no one can imagine.
+                <span>Alan Turing</span></p>
+            </div>
+    
+            <div class="ft2">
+                <img src="assets/img/default_transparent_1000x1000.png">
+                <nav>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/mvdevelop" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/MvDevelop" target="_blank"><i class='bx bxl-github'></i></a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
